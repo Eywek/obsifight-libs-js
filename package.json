@@ -1,0 +1,22 @@
+{
+  "name": "obsifight-libs",
+  "version": "1.0.0",
+  "description": "Some vendors for nodejs app on obsifight network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eywek/obsifight-libs-js.git"
+  },
+  "author": "Eywek <contact@eywek.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eywek/obsifight-libs-js/issues"
+  },
+  "homepage": "https://github.com/Eywek/obsifight-libs-js#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
