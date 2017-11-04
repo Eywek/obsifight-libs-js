@@ -45,7 +45,7 @@ module.exports = class {
     // request
     function next(err, token) {
       if (err) return callback(err)
-      request[method]({
+      request[method.toLowerCase()]({
         url: self.endpoint + route,
         body: JSON.stringify(body),
         headers: {
